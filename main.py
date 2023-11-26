@@ -234,15 +234,15 @@ if __name__ == '__main__':
     parser.add_argument("--dr", type=float, default=0.995, nargs="?", help="Decay rate.")
     parser.add_argument("--seed", type=int, default=20, nargs="?", help="random seed.")
     
-    parser.add_argument("--dim", type=int, default=64, nargs="?", help="sin emb eim")
+    parser.add_argument("--dim", type=int, default=64, nargs="?", help="sin emb dim")
     parser.add_argument("--num_heads", type=int, default=2, nargs="?", help="")
     parser.add_argument("--num_rgcns", type=int, default=1, nargs="?", help="")
     parser.add_argument("--num_flowrgcns", type=int, default=1, nargs="?", help="")
 
     parser.add_argument("--num_sas", type=int, default=1, nargs="?", help="")
     parser.add_argument("--dropout", type=float, default=0.0, nargs="?", help="")
-    parser.add_argument("--kge_cat_dim", type=int, default=16, nargs="?", help="kge cat eim")
-    parser.add_argument("--xt_cat_dim", type=int, default=16, nargs="?", help="xt cat eim")
+    parser.add_argument("--kge_cat_dim", type=int, default=16, nargs="?", help="kge cat dim")
+    parser.add_argument("--xt_cat_dim", type=int, default=16, nargs="?", help="xt cat dim")
     
 
     parser.add_argument('--pretrain', default=1, type=int, help='1-use pretrain kg embedding')
@@ -250,7 +250,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--n_layer', default=5, type=int, help='number of residual layers')
 
-    parser.add_argument("--dataset", type=str, default='bj', nargs="?", help="xt cat eim")
+    parser.add_argument("--dataset", type=str, default='bj', nargs="?", help="")
     # diffusion params
     parser.add_argument("--objective", type=str, default='pred_noise', nargs="?", help="pred_noise/pred_x0")
     parser.add_argument("--loss_type", type=str, default='l1', nargs="?", help="l1/l2")

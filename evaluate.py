@@ -6,8 +6,9 @@ from sklearn import metrics
 import warnings
 warnings.filterwarnings('ignore')
 
-filepath='./data/data_nyc/'
-resultpath = './output/output_nyc/'
+dataset='nyc' ##################### modify the dataset here
+filepath='./data/data_{}/'.format(dataset)  
+resultpath = './output/output_{}/'.format(dataset)
 assert os.path.exists(resultpath)
 
 

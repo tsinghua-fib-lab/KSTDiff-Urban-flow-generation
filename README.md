@@ -2,7 +2,7 @@
 
 The official PyTorch implementation of "Towards Generative Modeling of Urban Flow through Knowledge-enhanced Denoising Diffusion" (SIGSPATIAL'23).
 
-NYC dataset is included.
+NYC, Washington D.C. (DC), and Baltimore (BM) datasets are included.
 
 The code is tested under a Linux desktop with torch 1.9.0 and Python 3.8.10.
 
@@ -42,6 +42,8 @@ Evaluate generated flow:
 ```
 python evaluate.py
 ```
+
+(The default dataset is NYC, you can modify the dataset in pretrain.sh, train.sh, sample.sh, and evaluate.py)
 
 ## More Related Works
 

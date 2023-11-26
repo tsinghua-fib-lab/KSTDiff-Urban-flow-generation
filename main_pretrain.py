@@ -102,11 +102,13 @@ if __name__ == '__main__':
     parser.add_argument("--model_name", type=str, default="TuckER")
     parser.add_argument("--loss", type=str, default="CE")
 
+    parser.add_argument("--dataset", type=str, default='nyc', nargs="?", help="")
+
     args = parser.parse_args()
     print(args)
 
-    data_dir = "./data/data_nyc/"
-    archive_path = './data/data_nyc/'
+    data_dir = "./data/data_{}/".format(args.dataset)
+    archive_path = './data/data_{}/'.format(args.dataset)
     
     assert os.path.exists(data_dir)
     if not os.path.exists(archive_path):
