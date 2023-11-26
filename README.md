@@ -28,6 +28,9 @@ Evaluate generated flow:
 python evaluate.py
 ```
 
+## Note
+
+The implemention is based on *[DDPM](https://github.com/lucidrains/denoising-diffusion-pytorch)*.
 # Reference
 ```
 

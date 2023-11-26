@@ -1,0 +1,7 @@
+torch==1.9.0
+torch_geometric==1.7.2
+numpy==1.21.1
+sklearn
+mlflow
+setproctitle
+tqdm
