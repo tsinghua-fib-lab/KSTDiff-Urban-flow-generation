@@ -16,28 +16,28 @@ The code is tested under a Linux desktop with torch 1.9.0 and Python 3.8.10.
 
 ### Dependencies
 1. Install PyTorch 1.9.0 with the correct CUDA version.
-2. Use the ``pip install -r requirements. txt`` command to install all of the Python modules and packages used in this project.
+2. Use the ``pip install -r requirements.txt`` command to install all of the Python modules and packages used in this project.
 
 ## Usage
 
-Pretrain to get KG embeddings:
+**Step-1** Pretrain to get KG embeddings:
 ```
 bash pretrain.sh
 ```
 
-Train diffusion model:
+**Step-2** Train diffusion model:
 
 ```
 bash train.sh
 ```
 
-Generate urban flow:
+**Step-3** Generate urban flow:
 
 ```
 bash sample.sh
 ```
 
-Evaluate generated flow:
+**Step-4** Evaluate generated flow:
 
 ```
 python evaluate.py
