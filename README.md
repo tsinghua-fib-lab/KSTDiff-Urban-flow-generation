@@ -1,6 +1,6 @@
 # Urban flow generation
 
-The official PyTorch implementation of "Towards Generative Modeling of Urban Flow through Knowledge-enhanced Denoising Diffusion" (SIGSPATIAL'23).
+The official PyTorch implementation of "[Towards Generative Modeling of Urban Flow through Knowledge-enhanced Denoising Diffusion](https://dl.acm.org/doi/10.1145/3589132.3625641)" (SIGSPATIAL'23).
 
 NYC, Washington D.C. (DC), and Baltimore (BM) datasets are included.
 
@@ -56,10 +56,11 @@ The implemention is based on *[DDPM](https://github.com/lucidrains/denoising-dif
 If you found this library useful in your research, please consider citing:
 
 ```
-@article{zhou2023towards,
+@inproceedings{zhou2023towards,
   title={Towards Generative Modeling of Urban Flow through Knowledge-enhanced Denoising Diffusion},
   author={Zhou, Zhilun and Ding, Jingtao and Liu, Yu and Jin, Depeng and Li, Yong},
-  journal={arXiv preprint arXiv:2309.10547},
+  booktitle={Proceedings of the 31st ACM International Conference on Advances in Geographic Information Systems},
+  pages={1--12},
   year={2023}
 }
 ```
