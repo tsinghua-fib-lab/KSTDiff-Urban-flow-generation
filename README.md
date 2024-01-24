@@ -1,6 +1,7 @@
 # Urban flow generation
 
 The official PyTorch implementation of "[Towards Generative Modeling of Urban Flow through Knowledge-enhanced Denoising Diffusion](https://dl.acm.org/doi/10.1145/3589132.3625641)" (SIGSPATIAL'23).
+(PDF on [arxiv](https://arxiv.org/abs/2309.10547))
 
 NYC, Washington D.C. (DC), and Baltimore (BM) datasets are included.
 
